@@ -1,0 +1,113 @@
+body {
+    background-color: #14120B;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    padding: 0px 20px;
+}
+
+li {
+    text-decoration: none;
+
+}
+
+a {
+    color: #EDECEC;
+    text-decoration: none;
+}
+
+.container {
+    height: 52px;
+    color: #EDECEC;
+    background-color: #14120B;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cursor-logo {
+    display: flex;
+    width: auto;
+    height: 23.79px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 5.6px 15px;
+}
+
+.nav-a:hover {
+    filter: brightness(80%);
+}
+
+#heading-btn {
+    margin-bottom: 56px;
+}
+
+
+
+
+
+#intro {
+    padding: 112px 20px 67.2px;
+}
+
+#heading {
+    margin: 0 0 22.4px;
+    color: #EDECEC;
+    width: 50%;
+}
+
+#download-a-btn {
+    background-color: #EDECEC;
+    color: #14120B;
+    padding: 12.48px 21.6px 12.8px;
+    border-radius: 25px;
+}
+
+
+
+
+
+#logo {
+    width: 19.75px;
+    height: 22.5px;
+}
+
+#name {
+    height: 11.41px;
+}
+
+#signIn-btn {
+    border: 1px solid #9c9999;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+#dowload-btn {
+    color: #14120B;
+    border: 1px solid #14120B;
+    background-color: #EDECEC;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+
+
+#intro-img {
+    width: 100%;
+}
