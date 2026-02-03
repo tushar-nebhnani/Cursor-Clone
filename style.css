@@ -1,8 +1,13 @@
 body {
-    background-color: aliceblue;
+    background-color: #14120B;
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -16,7 +21,6 @@ li {
 
 .site-header {
     width: 100%;
-    /* padding: 0 19px; */
     background-color: #14120B;
     position: fixed;
     top: 0;
@@ -29,7 +33,10 @@ li {
     height: 52px;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 50px;
+    /* Bug 1 */
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,13 +75,18 @@ li {
     opacity: 0.7;
 }
 
+.container-intro {
+    padding: 0 60px;
+    margin: 0 0 56px;
+}
+
 #logo {
     width: 20px;
     height: 20px;
 }
 
 #name {
-    height: 16px;
+    height: 11px;
 }
 
 #signIn-btn {
@@ -105,4 +117,43 @@ li {
 
 #dowload-btn:hover {
     background-color: #d4d3d3;
+}
+
+#intro {
+    padding: 120px 60px 68px;
+}
+
+#heading-btn {
+    padding: 0 0 56px;
+}
+
+#heading {
+    height: auto;
+    max-width: 720px;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 0 26px;
+    color: rgb(237, 236, 236);
+}
+
+#heading h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#download-a-btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 24px;
+    color: #14120B;
+    background-color: #EDECEC;
+    border: 1px solid #EDECEC;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+#download-a-btn:hover {
+    background-color: #d4d3d3;
+    border-color: #d4d3d3;
 }
