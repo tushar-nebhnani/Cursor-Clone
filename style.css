@@ -1,113 +1,108 @@
 body {
-    background-color: #14120B;
+    background-color: aliceblue;
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
 }
 
-header {
-    padding: 0px 20px;
+a {
+    color: #EDECEC;
+    text-decoration: none;   
 }
 
 li {
     text-decoration: none;
-
 }
 
-a {
-    color: #EDECEC;
-    text-decoration: none;
-}
-
-.container {
-    height: 52px;
-    color: #EDECEC;
-    background-color: #14120B;
-    margin-top: 0;
-    position: sticky;
-    top: 0;
+.site-header {
     width: 100%;
+    /* padding: 0 19px; */
+    background-color: #14120B;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    height: 52px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 50px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    color: #EDECEC;
 }
 
 .cursor-logo {
     display: flex;
-    width: auto;
-    height: 23.79px;
-    justify-content: flex-start;
     align-items: center;
-    gap: 4px;
+    gap: 8px;
+    margin-right: 40px;
+}
+
+.nav-bar {
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
 
 .nav-bar ul {
     display: flex;
     list-style: none;
-    justify-content: space-between;
-    gap: 24px;
-    padding: 5.6px 15px;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
+    align-items: center;
+}
+
+.nav-a {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
 }
 
 .nav-a:hover {
-    filter: brightness(80%);
+    opacity: 0.7;
 }
-
-#heading-btn {
-    margin-bottom: 56px;
-}
-
-
-
-
-
-#intro {
-    padding: 112px 20px 67.2px;
-}
-
-#heading {
-    margin: 0 0 22.4px;
-    color: #EDECEC;
-    width: 50%;
-}
-
-#download-a-btn {
-    background-color: #EDECEC;
-    color: #14120B;
-    padding: 12.48px 21.6px 12.8px;
-    border-radius: 25px;
-}
-
-
-
-
 
 #logo {
-    width: 19.75px;
-    height: 22.5px;
+    width: 20px;
+    height: 20px;
 }
 
 #name {
-    height: 11.41px;
+    height: 16px;
 }
 
 #signIn-btn {
-    border: 1px solid #9c9999;
-    border-radius: 20px;
-    padding: 5px 10px;
+    font-size: 14px;
+    padding: 8px 16px;
+    color: #EDECEC;
+    border: 1px solid rgba(237, 236, 236, 0.3);
+    border-radius: 25px;
+    transition: all 0.2s ease;
 }
 
 #dowload-btn {
+    font-size: 14px;
+    padding: 8px 16px;
     color: #14120B;
-    border: 1px solid #14120B;
     background-color: #EDECEC;
-    border-radius: 20px;
-    padding: 5px 10px;
+    border: 1px solid #EDECEC;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s ease;
 }
 
+#signIn-btn:hover {
+    border-color: #EDECEC;
+    background-color: rgba(237, 236, 236, 0.05);
+}
 
-
-#intro-img {
-    width: 100%;
+#dowload-btn:hover {
+    background-color: #d4d3d3;
 }
