@@ -80,6 +80,12 @@ li {
     margin: 0 0 56px;
 }
 
+.stack-container {
+    padding: 0 60px;
+    display: block;
+    text-align: center;
+}
+
 #logo {
     width: 20px;
     height: 20px;
@@ -87,6 +93,11 @@ li {
 
 #name {
     height: 11px;
+}
+
+#intro-img {
+    width: 100%;
+    max-width: 1400px;
 }
 
 #signIn-btn {
@@ -156,4 +167,44 @@ li {
 #download-a-btn:hover {
     background-color: #d4d3d3;
     border-color: #d4d3d3;
+}
+
+#heading-h2 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #EDECEC;
+    margin: 0 0 22.4px;
+    text-align: center;
+}
+
+#garden {
+    padding: 0 60px;
+}
+
+#logo-garden {
+    display: flex;
+    gap: 12px;                
+    flex-wrap: nowrap;        
+    justify-content: center;  
+    align-items: center;
+    width: 100%;
+}
+
+.logo-box {
+    width: 150px;             
+    height: 80px;             
+    background-color: #1B1913;
+    padding: 0 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.logos {
+    height: auto;
+    width: auto;
+    max-width: 80%;           
+    max-height: 50%;          
 }
