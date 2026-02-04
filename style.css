@@ -565,7 +565,7 @@ li {
 }
 
 .highlights-section {
-    background-color: #14120B; 
+    background-color: #1B1913; 
     padding: 80px 24px;
     font-family: 'Inter', sans-serif;
     color: #EDECEC;
@@ -573,10 +573,11 @@ li {
 
 .highlights-container {
     max-width: 1200px;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: 250px 1fr; 
     gap: 40px;
+    margin-right: 70px;
+    margin-left: 70px;
 }
 
 .section-label h2 {
@@ -644,4 +645,165 @@ li {
 
 .view-more-link:hover {
     opacity: 0.8;
+}
+
+.cta-section {
+    background-color: #14120B; 
+    padding: 135px 20px;       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.cta-container {
+    max-width: 800px;
+    width: 100%;
+}
+
+.cta-container h2 {
+    font-size: 72px;
+    line-height: 79px; 
+    font-weight: 400;
+    color: #EDECEC;
+    margin: 0 0 22.5px;      
+}
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; 
+    background-color: #EDECEC;
+    color: #14120B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration: none;
+    padding: 12.5px 21.5px 13px;
+    border-radius: 25px; 
+}
+
+.download-btn:hover {
+    background-color: #ededed;
+    transform: translateY(-2px);
+}
+
+.site-footer {
+    background-color: #1B1913; 
+    padding: 80px 40px 40px 40px; 
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: #EDECEC;
+    font-size: 0.9rem;
+}
+
+.footer-container {
+    max-width: 1400px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    margin-bottom: 120px; 
+}
+
+.footer-column h4 {
+    color: #888888; 
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+/* Links List */
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column li {
+    margin-bottom: 14px; 
+}
+
+.footer-column a {
+    color: #dedede; 
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-column a:hover {
+    color: #ffffff;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid transparent; 
+}
+
+.copyright {
+    display: flex;
+    gap: 24px;
+    color: #666666; 
+    font-size: 0.85rem;
+}
+
+.soc2-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.footer-controls {
+    display: flex;
+    gap: 16px;
+}
+
+.theme-switch {
+    display: flex;
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    color: #666;
+    padding: 6px 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.icon-btn:hover {
+    color: #fff;
+}
+
+.icon-btn.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.lang-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #1a1a1a;
+    color: #dedede;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+.lang-btn:hover {
+    background-color: #262626;
 }
