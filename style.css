@@ -186,7 +186,7 @@ li {
 
 #logo-garden {
     display: flex;
-    gap: 12px;                
+    gap: 8px;                
     flex-wrap: nowrap;        
     justify-content: center;  
     align-items: center;
@@ -197,7 +197,7 @@ li {
     width: 150px;             
     height: 100px;             
     background-color: #1B1913;
-    padding: 0 7px;
+    padding: 0 4px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -211,13 +211,13 @@ li {
     max-height: 50%;          
 }
 
-.main-section {
+.main-section-container {
     padding: 68px 20px;
     margin-left: 70px;
     margin-right: 70px;
 }
 
-#agent {
+#section-container {
     height: 685px;
     width: 100%;
     padding: 17.5px;
@@ -228,7 +228,6 @@ li {
 }
 
 #a-h3 {
-    /* display: block; */
     font-size: 22px;
     line-height: 29px;
     font-weight: 400;
@@ -264,14 +263,24 @@ li {
     justify-content: center;
 }
 
-#agent-image {
+#react-heading {
+    height: 650px;
+    width: 30%;
+    padding: 0 2.5px 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section-image {
     height: 650px;
     width: 70%;
     overflow: hidden;
 }
 
-#agent-image img {
+#section-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
 }
