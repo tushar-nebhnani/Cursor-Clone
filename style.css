@@ -320,7 +320,7 @@ li {
     color: #EDECEC;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* push image to bottom */
+    justify-content: space-between; 
     align-items: flex-start;
 }
 
@@ -444,4 +444,83 @@ li {
     margin-top: 12px;
     min-height: 302px;
     min-width: 302px;
+}
+
+.changelog {
+    padding: 67px 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.log-container {
+    height: 222px;
+}
+
+#log-heading {
+    height: 32.5px;
+    margin: 0 0 22.5px;
+    font-size: 26px;
+    color: rgb(92.94% 92.55% 92.55%);
+    font-weight: 400;
+}
+
+.changelog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.changelog-card {
+    padding: 16px 17.5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #1B1913; 
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+.changelog-card:hover {
+    background-color: #262626; 
+}
+
+.card-header {
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.version-badge {
+    color: #a1a1a1;       
+    border: 1px solid #444444; 
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.date {
+    color: #a1a1a1; /* Text Grey */
+    font-size: 0.95rem;
+}
+
+.title {
+    color: rgb(92.94% 92.55% 92.55%); 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+
+.log-link {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(96.08% 30.58% 0% / 0.75);
 }
